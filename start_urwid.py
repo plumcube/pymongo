@@ -23,4 +23,4 @@ map2 = urwid.AttrMap(fill, 'bg')
 loop = urwid.MainLoop(map2, palette, unhandled_input=exit_on_q)
 loop.run()
 
-
+print 'finished'
